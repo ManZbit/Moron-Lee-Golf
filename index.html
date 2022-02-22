@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moron Lee Golf</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+    <script src="/js/script.js"></script>
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.png">
+  </head>
+  <body>
+  <header class="header">
+    <nav id="navbar" class="hero-img">  
+       <!--  <img
+          src="/assets/button/logo.png"
+          alt="Logo de Moron Golf"
+          class="logo"
+        /> -->
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#footer__section">Contacto</li></a>
+          <li class="nav__item"><a href="#footer__section">Dónde estamos</li></a>
+        </ul>  
+        <i 
+        class="fal fa-moon" 
+        onclick="toggle(); changeIcon(this);" 
+        id="dark-mode-toggle"
+        >
+      </i>
+    </nav>
+  </header>
+  <section class="products__description">
+    <h2>Nuestros productos</h2>
+    <h4 class="align-text">Consulte stock y precio por Whatsapp</h4>
+  </section>  
+  <section class="gallery">
+    <span class="image__box">
+      <img class="insumos one-to-one" src="/assets/images/insumo1.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Gorra Callaway</p>
+      </img>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo2.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Caja de tee de golf 40 unidades</p>
+      </img>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo3.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Protector solar corporal G&H FPS 50</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo4.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Guantes</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo5.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Guantes</p>
+      </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo6.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Bolsas para palos Taylormade</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo7.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Bolsas para palos Taylormade</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo8.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Bolso</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo9.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Marcador de pelota</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo10.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Funda personalizada (con bandera y nombre)</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo11.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Toalla microfibra</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo12.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Chapita marcador</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo13.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Chapita marcador</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo14.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Fundas</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo15.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Fundas</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo16.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Fundas</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo17.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Fundas</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo18.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Fundas</p>
+      </img>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo19.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Zapatilla Febo</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo20.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Zapatilla Febo</p>
+      </img>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo21.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Zapatilla Febo</p>
+      </img>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo22.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Toalla microfibra con logo</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo23.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Funda</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo24.jpeg">
+      <hr align="center">
+      <p class="precio"></p>
+      <p class="descripcion">Zapatilla Febo</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos-fondo-blanco" src="/assets/images/insumo25.jpeg">
+      <hr align="center">
+      <p class="precio"></p>
+      <p class="descripcion">Pelotas recuperadas en buen estado x12 </p>
+    </span>
+    <span class="image__box">
+      <img class="insumos-fondo-blanco" src="/assets/images/insumo26.jpeg">
+      <hr align="center">
+      <p class="precio"></p>
+      <p class="descripcion">Pelotas Verdes x12 Callaway Supersoft</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo27.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Pelotas Blancas x12 Callaway Supersoft</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo28.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Pelotas Rosas x12 Callaway Supersoft</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo30.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Pelotas Naranjas x12 Callaway Supersoft</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo29.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Pelotas Blancas x12 Taylormade Distance+</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo31.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Pelotas x12 Taylormade Soft Response</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo32.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Pelotas Blancas x12 Titleist TruFeel</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo33.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Pelotas Naranjas x12 Titleist TruFeel</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo34.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Pelotas Amarillas x12 Taylormade Distance+</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo35.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Porta objetos</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo36.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Pelotas x12 Titleist Pro V1</p>
+    </span><span class="image__box">
+      <img class="insumos" src="/assets/images/insumo37.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Pelotas x12 Titleist Pro V1</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo38.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Pelotas x12 Titleist Velocity</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo39.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Pelotas Amarillas x12 Titleist Pro V1x</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo40.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Pelotas Aam x12 Callaway Chrome Soft X</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo41.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Pelotas x12 Callaway Chrome Soft X</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo42.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Pelotas x12 Titleist Pro V1x</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo43.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Pelotas x12 Taylormade TP5</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo44.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Pelotas x12 Taylormade TP5x</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo45.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Pelotas x12 Taylormade TP5</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo46.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Pelotas x12 Callaway Warbird</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo47.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Pelotas x12 Callaway ERC Soft</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo48.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Pelotas x12 Callaway REVA</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo49.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Pelotas x12 Srixon ZStar</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo50.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Pelotas x12 Taylormade TP5x</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo51.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Pelotas x12 Srixon Soft Feel</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo52.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Pelotas x12 Srixon Soft Feel</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo53.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Pelotas x12 Srixon Soft Feel</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo54.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Pelotas x12 Srixon ZStar XV</p>
+    </span>
+    <span class="image__box">
+      <img class="insumos" src="/assets/images/insumo55.jpeg">
+      <p class="precio"></p>
+      <p class="descripcion">Pelotas x12 Srixon Soft Feel</p>
+    </span>
+  </section>
+</body>  
+  <section class="wap__container">
+    <a href="https://wa.me/5491144385883?text='Hola, estoy interesado en contactarme por'" title='Whatsapp: +54 9 11-4438-5883'>
+      <img class="wap" src="/assets/images/wap.png" />
+    </a>
+  </section>
+  <section class="chevron__container">
+    <a href="#">
+      <img class="chevron" src="/assets/button/doublearrow.svg" />
+    </a>
+  </section> 
+  <footer class="footer" id="footer__section">
+    <section class="footer__buttons">
+      <section class="instagram__container">
+        <a href="https://www.instagram.com/moronleegolf" title='moronleegolf'>
+          <i class="fab fa-instagram" width=10px></i>
+        </a>  
+        <p>Instagram: moronleegolf</p>
+      </section>
+      <section class="phone__container">
+        <a href="tel:5491144385883" title='11-4438-5883'>
+          <i class="far fa-phone"></i>
+        </a>
+        <p>11-4438-5883</p>
+      </section>
+      <section class="kakao__container">
+        <span class="iconify" data-icon="vs:kakaotalk" data-width="44" data-height="44" title="Kakao: juangolf"></span>
+        <p>KakaoTalk: juangolf</p>
+      </section>
+    </section>
+    <section class="datos">  
+      <p>Moron 3392 4&#176;A CABA</p>
+      <p>Sábados de 9:00 a 13:00</p>
+      <p>Lunes a Viernes de 9:00 a 18:00</p>
+    </section>
+    <section class="iframe__container">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13132.571274168238!2d-58.4784094!3d-34.625831!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5b6e87e783bec8b7!2sMoron%20Lee%20Golf!5e0!3m2!1sen!2sar!4v1639175337500!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>  
+  </footer>
+</html>
